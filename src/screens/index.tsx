@@ -1,6 +1,6 @@
 import { View, VirtualizedList } from "react-native";
 import { styles } from "./styles";
-import { Header } from "../Header";
+import { Header } from "../components/Header";
 
 export function HomeScreen() {
 	return <View style={styles.container}>
@@ -20,6 +20,7 @@ export function HomeScreen() {
 				</View>
 				</View>
 			</View>
+			<Task />
 		</View>
 	</View>
 }

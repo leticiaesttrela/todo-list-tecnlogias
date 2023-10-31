@@ -1,6 +1,6 @@
 import {View, Image, TextInput, TouchableOpacity} from 'react-native'
 import {styles} from './styles'
-import { theme } from '../theme'
+import { theme } from '../../theme'
 import {MaterialCommunityIcons} from '@expo/vector-icons'
 export function Header(){
     return <View style={styles.headerContainer}>
